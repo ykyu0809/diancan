@@ -1,0 +1,82 @@
+/* pages/recommend/recommend.wxss */
+.head{
+    height: 20px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    /* border: 3rpx solid #faca82;
+    border-radius: 10rpx; */
+}
+
+.category-panel1 {
+    height: 480px;
+    width: 100%;
+    display: flex;
+    /* color: #666; */
+    flex-direction: column;
+    padding-top: 10px;
+    margin-top: -16px;
+    /* font-size: 11px; */
+    justify-content: space-around;
+}
+
+.category-panel2 {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    color: #666;
+    margin-top: 10px;
+    flex-direction: row;
+    /* font-size: 11px; */
+    justify-content: space-around;
+}
+
+/* 选中该菜品时的样式 */
+.yseChoose {
+    display: flex;
+    width: 100px;
+    text-align: center;
+    flex-direction: column;
+    background-color: greenyellow;
+}
+/* 未选中该菜品时的样式 */
+.noChoose {
+    display: flex;
+    width: 100px;
+    text-align: center;
+    flex-direction: column;
+    background-color:white
+}
+
+.category-item-image {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    /* margin-left: 5px; */
+    margin-right: 5px;
+}
+
+.category-item-text {
+    /* margin-top: 11px; */
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn-submit1{
+    margin-top: 10px;
+}
+
+.btn-submit2{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button2{
+    width: 50%;
+    display:inline-block;
+}
+   
